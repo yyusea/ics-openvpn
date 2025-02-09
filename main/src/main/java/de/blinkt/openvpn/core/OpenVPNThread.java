@@ -93,7 +93,7 @@ public class OpenVPNThread implements Runnable {
             }
 
             if (!mNoProcessExitStatus)
-                VpnStatus.updateStateString("NOPROCESS", "No process running.", R.string.state_noprocess, ConnectionStatus.LEVEL_NOTCONNECTED);
+                VpnStatus.updateStateString("NOPROCESS", "未运行", R.string.state_noprocess, ConnectionStatus.LEVEL_NOTCONNECTED);
 
             if (mDumpPath != null) {
                 try {
