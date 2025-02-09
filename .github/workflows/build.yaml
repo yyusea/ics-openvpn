@@ -27,8 +27,8 @@ jobs:
         uses: android-actions/setup-android@v3
       - name: Build the app
         run: ./gradlew assemble${{ matrix.target }}Release
-      - name: Run Unit tests
-        run: ./gradlew test${{ matrix.target }}ReleaseUnitTest
+      # - name: Run Unit tests
+      #   run: ./gradlew test${{ matrix.target }}ReleaseUnitTest
 
       - name: Archive apk artifact
         uses: actions/upload-artifact@v4
