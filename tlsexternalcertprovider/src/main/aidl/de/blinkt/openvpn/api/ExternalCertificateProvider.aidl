@@ -1,6 +1,7 @@
 // ExternalCertificateProvider.aidl
 package de.blinkt.openvpn.api;
 
+
 /*
  * This is very simple interface that is specialised to have only the minimal set of crypto
  * operation that are needed for OpenVPN to authenticate with an external certificate
