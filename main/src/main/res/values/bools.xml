@@ -6,5 +6,5 @@
 
 <resources>
     <bool name="supportFileScheme">true</bool>
-    <bool name="allowTranslationDefault">false</bool>
+    <bool name="allowTranslationDefault">true</bool>
 </resources>
